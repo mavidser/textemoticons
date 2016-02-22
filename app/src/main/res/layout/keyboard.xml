@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<android.inputmethodservice.KeyboardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/keyboard"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#eceef1"
+    android:shadowRadius="0"
+    android:keyTextColor="@android:color/black"
+    android:keyBackground="@drawable/key_light"
+    android:keyPreviewLayout="@layout/preview"
+    android:isScrollContainer="true"
+    android:scrollbarAlwaysDrawHorizontalTrack="true"
+    android:scrollbarStyle="insideOverlay"
+    android:scrollbars="horizontal"
+    >
+    </android.inputmethodservice.KeyboardView>
