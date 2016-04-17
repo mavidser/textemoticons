@@ -10,9 +10,4 @@
     android:keyTextColor="@android:color/black"
     android:keyBackground="@drawable/key_light"
     android:keyPreviewLayout="@layout/preview"
-    android:isScrollContainer="true"
-    android:scrollbarAlwaysDrawHorizontalTrack="true"
-    android:scrollbarStyle="insideOverlay"
-    android:scrollbars="horizontal"
-    >
-    </android.inputmethodservice.KeyboardView>
+/>

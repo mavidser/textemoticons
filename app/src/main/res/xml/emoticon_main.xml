@@ -1,0 +1,31 @@
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="25%p"
+    android:horizontalGap="0px"
+    android:verticalGap="0px"
+    android:keyHeight="48dp"
+    >
+    <Row android:keyboardMode="@integer/table">
+        <Key android:keyOutputText="ಠ_ಠ" android:keyLabel="ಠ_ಠ" android:keyEdgeFlags="left"/>
+        <Key android:keyOutputText="( ͡° ͜ʖ ͡°)" android:keyLabel="( ͡° ͜ʖ ͡°)"/>
+        <Key android:keyOutputText="¯\\_(ツ)_/¯" android:keyLabel="¯\\_(ツ)_/¯"/>
+        <Key android:keyOutputText="ヾ(⌐■_■)ノ♪" android:keyLabel="ヾ(⌐■_■)ノ♪" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row android:keyboardMode="@integer/faces">
+        <Key android:keyOutputText="ಠ_ಠ" android:keyLabel="ಠ_ಠ" android:keyEdgeFlags="left"/>
+        <Key android:keyOutputText="( ͡° ͜ʖ ͡°)" android:keyLabel="( ͡° ͜ʖ ͡°)"/>
+        <Key android:keyOutputText="¯\\_(ツ)_/¯" android:keyLabel="¯\\_(ツ)_/¯"/>
+        <Key android:keyOutputText="(⌐■_■)" android:keyLabel="(⌐■_■)" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row>
+        <Key android:codes="-100" android:keyLabel="★" android:keyEdgeFlags="left"/>
+        <Key android:codes="-101" android:keyLabel="┬┬"/>
+        <Key android:codes="-102" android:keyLabel="⌐■_■"/>
+        <Key android:codes="-103" android:keyLabel="◉_◉" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:codes="-10"  android:keyIcon="@mipmap/ic_action_action_language" android:keyWidth="15%p" android:keyEdgeFlags="left"/>
+        <Key android:codes="32" android:keyIcon="@drawable/space" android:keyWidth="70%p" android:isRepeatable="true"/>
+        <Key android:codes="-5" android:keyIcon="@mipmap/ic_action_content_backspace" android:keyWidth="15%p" android:isRepeatable="true" android:keyEdgeFlags="right"/>
+
+    </Row>
+</Keyboard>
